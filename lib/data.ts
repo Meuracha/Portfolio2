@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import bigboss from "@/public/bigboss.jpg";
+import hotel from "@/public/hotel.png";
+import next from "@/public/next.png";
 
 export const links = [
   {
@@ -35,16 +35,16 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Big boss game",
+    location: "Rayong, TH",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Mayahi hotel",
+    location: "Bangkok, TH",
     description:
       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Big boss game",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is a 3D computer game with a unity design that can be played for enjoyment and education.",
+    tags: ["Unity", "C#", "Illustator", "Premiere pro", "Blender"],
+    imageUrl: bigboss,
   },
   {
-    title: "rmtDev",
+    title: "Mayahi hotel",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This is a web based Hotel Management System for customers booking and admins.",
+    tags: ["React", "JavaScript", "CSS", "MongoDB"],
+    imageUrl: hotel,
   },
   {
-    title: "Word Analytics",
+    title: "Monie eiei",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is a web based Money Management System for customers with friends and families.",
+    tags: ["Next.js", "MongoDB", "Tailwind", "Javascript"],
+    imageUrl: next,
   },
 ] as const;
 
@@ -88,20 +88,16 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "MySQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Google sheet",
+  "Excel",
+  "Jupyter notebook",
+  "Google collab",
 ] as const;
